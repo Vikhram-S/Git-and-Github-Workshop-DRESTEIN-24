@@ -1,0 +1,36 @@
+GIT WORKSHOP ASSIGNMENT
+
+                                                                                                           NAME: KANISH TR
+                                                                                                           REG NO:24900912
+                                                                                                          YEAR/DEP:1ST YEAR(ECE)
+
+1.mkdir git workshop
+   cd git-workshop 
+
+2.git init
+
+3.touch hello.txt
+   echo ‘Hello,Git Workshop’>hello.txt
+
+4.git status
+
+5.git add hello.txt
+    git commit-m”Add hello.txt with welcome message”
+
+6.git branch update-content
+   git checkout update-content
+
+7.echo’This is a simple Git assignment.’>>hello.txt
+   git add hello.txt
+   git commit-m”Appended text to hello.txt”
+
+8.git checkout main
+   git merge update-content
+
+9.git log
+
+10.git checkout-hello.txt
+     git reset-hard<commit-hash>
+ 
+11.git remote add origin<repository-url>
+      git push origin main
